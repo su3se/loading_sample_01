@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--ローディングアニメーション デモサンプル-->
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Suuupe | My Start Page</title>
+
+<!--ローディングのスタイルだけサンプルで設置しています。-->
+<link rel="stylesheet" href="./css/style.css">
+
+<!--このスクリプトをheadの中に追加してください-->
+<!--ココから-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<!--loading.jsを呼び出さなくても直接ここに書いても動きます-->
+    <script type="text/javascript" src="./js/loading.js"></script>
+<!--ココまで-->
+
+
+</head>
+
+<body>
+
+<!--↓ココから↓-->
+
+<!--bodyの中に追加（ローディング画像 GIF or SVG）-->
+<!--divのidにloadingを追加する-->
+<!--ロード後に消える処理はSCRIPTで行っています-->
+<div id="loading" align="center"><img src="./img/sample_1.gif"></div>
+
+<div id="contents">
+
+<!--ココにコンテンツ-->
+<img src="./img/sample_2.gif">
+</div>
+
+<!--ココまで-->
+
+</body>
+</html>
